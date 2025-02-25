@@ -1,0 +1,10 @@
+body{
+    background-color:burlywood;
+    background: url(https://dlcdnrog.asus.com/rog/media/166370403263.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+ul{
+    list-style:square;
+}

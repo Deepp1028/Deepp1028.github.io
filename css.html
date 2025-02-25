@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to CSS</title>
+    <style>
+        h2{
+            color:aquamarine;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        h2.tengah{
+                text-align: center;
+            }
+
+        .bg-darks{
+            background-color:brown;
+        }
+
+        .text-white{
+            color: beige;
+        }
+
+        #content{
+            background-color: rgb(210, 146, 227);
+            margin: 3% 5% 30px 5%;
+            padding: 5px;
+        }
+        
+        .container .box p{
+            background-color: yellow;
+        }
+
+        .toUpperCase{
+            text-transform: uppercase;
+            text-decoration: line-through;
+        }
+    </style>
+    <link rel="stylesheet" type="text/CSS" href="style.css">
+</head>
+<body>
+    <div class="container" id="content">
+        <div class="box">
+    <h1>Welcome to JTMK</h1>
+    <h2 class="tengah bg-darks">Selamat datang ke JTMK</h2>
+    <h2 class="tengah toUpperCase">Test</h2>
+
+    <p style="color: blueviolet; font-size: 30px;">Track Offered</p>
+    <p class="toUpperCase">Please select your track</p>
+    <ul>
+        <li>Software and Development Track</li>
+        <li>Networking System Track</li>
+        <li>Data Visualization Track</li>
+    </ul>
+
+    <p>test container box</p>
+    <button type="submit">Apply Here!</button>
+    </div>
+    </div>
+</body>
+</html>
