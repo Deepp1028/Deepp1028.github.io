@@ -35,6 +35,37 @@
             text-transform: uppercase;
             text-decoration: line-through;
         }
+
+        input[type="text"],[type="email"]{
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            box-sizing: border-box;
+        }
+
+        button[type="submit"]{
+            background-color:#53bfed;
+            color: #ccc;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        button[type="submit"]:hover{
+            border-radius: 12%;
+            background-color: white;
+            color: black;
+            border: 1px black;
+            transition: 1s;
+        }
+
+        p::first-letter{
+            font-size: +2;
+            text-transform: uppercase;
+        }
     </style>
     <link rel="stylesheet" type="text/CSS" href="style.css">
 </head>
@@ -43,7 +74,10 @@
         <div class="box">
     <h1>Welcome to JTMK</h1>
     <h2 class="tengah bg-darks">Selamat datang ke JTMK</h2>
-    <h2 class="tengah toUpperCase">Test</h2>
+
+    <input type="text" id="user_name" placeholder="Please Enter Your Name">
+    <input type="email" id="user_email" placeholder="Please Enter Your Email">
+
 
     <p style="color: blueviolet; font-size: 30px;">Track Offered</p>
     <p class="toUpperCase">Please select your track</p>
